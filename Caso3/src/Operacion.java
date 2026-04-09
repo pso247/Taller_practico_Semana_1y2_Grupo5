@@ -23,7 +23,7 @@ public class Operacion {
 		Operacion sobrecarga = new Operacion();
 		
 		   System.out.println("Suma de 2 enteros: " + sobrecarga.sumar(5, 3));			// Enteros con 2 números
-		   System.out.println("Suma de 2 decimales: " + sobrecarga.sumar(5.5, 3.2));	// Decimales
+		   System.out.println("Suma de 2 decimales: " + sobrecarga.sumar(5.5, 3.8));	// Decimales
 		   System.out.println("Suma de 3 enteros: " + sobrecarga.sumar(1, 2, 3));		// Enteros con 3 números
 	}
 	
