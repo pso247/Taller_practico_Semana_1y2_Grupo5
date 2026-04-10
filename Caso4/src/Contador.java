@@ -13,7 +13,8 @@ public class Contador {
 		new Contador ();
 		new Contador ();
 		new Contador ();
-		System.out.println("Objetos Creados"+ Contador.getContador());
+		new Contador ();
+		System.out.println("Objetos Creados : "+ Contador.getContador());
 
 	}
 
