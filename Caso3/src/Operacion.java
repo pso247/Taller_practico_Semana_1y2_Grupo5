@@ -31,4 +31,8 @@ public class Operacion {
 }
 
 //README
+<<<<<<< HEAD
 // Este es un pequeño programa donde se desarrollo la sobrecargade métodos mediante la creación de varios métodos con el mismo nombre, llamado (sumar) 
+=======
+//Este es un pequeño programa donde se desarrollo la sobrecargade métodos mediante la creación de varios métodos con el mismo nombre, llamado (sumar))
+>>>>>>> branch 'main' of https://github.com/pso247/Taller_practico_Semana_1y2_Grupo5.git

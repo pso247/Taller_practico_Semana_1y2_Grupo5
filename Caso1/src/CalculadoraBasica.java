@@ -1,46 +1,72 @@
 import java.util.Scanner;
 
-public class CalculadoraBasica {
+public class Calculadora {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		double num1, num2, res=0;
-		char operacion;
-        Scanner scaner = new Scanner(System.in);
+    // Usando metodo
+    public static double sumar(double a, double b) {
+        return a + b;
+    }
 
-        System.out.println("Ingrese primer número:");
-        num1 = scaner.nextDouble();
+    public static double restar(double a, double b) {
+        return a - b;
+    }
 
-        System.out.println("Ingrese segundo número:");
-        num2 = scaner.nextDouble();
+    public static double multiplicar(double a, double b) {
+        return a * b;
+    }
 
-        System.out.println("Seleccione operación (+, -, *, /):");
-        operacion = scaner.next().charAt(0);
+    public static double dividir(double a, double b) {
+        if (b != 0) {
+            return a / b;
+        } else {
+            System.out.println("No se puede dividir entre 0");
+            return 0;
+        }
+    }
 
-        switch (operacion) {
-            case '+':
-                res = num1 + num2;
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double num1, num2;
+        int opcion;
+
+        System.out.print("Ingresa el primer número: ");
+        num1 = sc.nextDouble();
+
+        System.out.print("Ingresa el segundo número: ");
+        num2 = sc.nextDouble();
+
+        System.out.println("Elige operación:");
+        System.out.println("1. Suma");
+        System.out.println("2. Resta");
+        System.out.println("3. Multiplicación");
+        System.out.println("4. División");
+        opcion = sc.nextInt();
+
+        double resultado = 0;
+
+        // Condicional ( usando switch)
+        switch(opcion) {
+            case 1:
+                resultado = sumar(num1, num2);
                 break;
-            case '-':
-            	res = num1 - num2;
+            case 2:
+                resultado = restar(num1, num2);
                 break;
-            case '*':
-            	res = num1 * num2;
+            case 3:
+                resultado = multiplicar(num1, num2);
                 break;
-            case '/':
-                if (num2 != 0) {
-                	res = num1 / num2;
-                } else {
-                    System.out.println("Error: división por cero");
-                    return;
-                }
+            case 4:
+                resultado = dividir(num1, num2);
                 break;
             default:
-                System.out.println("Operación no válida");
+                System.out.println("Opción inválida");
                 return;
         }
 
-        System.out.println("Resultado: " + res);
-	}
-	
+        System.out.println("Resultado: " + resultado);
+        sc.close();
+    }
 }
+
+//Calculadora básica usando oepradores básicos matemáticos
