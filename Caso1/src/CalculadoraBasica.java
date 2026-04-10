@@ -68,3 +68,5 @@ public class Calculadora {
         sc.close();
     }
 }
+
+//Calculadora básica usando oepradores básicos matemáticos
