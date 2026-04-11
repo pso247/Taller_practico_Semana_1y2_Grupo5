@@ -5,7 +5,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		
         Persona persona1 = new Persona("Paul", 35);
-        Persona persona2 = new Persona("Diana", 33);
+        Persona persona2 = new Persona("Diana", 31);
 
         persona1.mostrarDatos();
         System.out.println("-");
