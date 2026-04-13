@@ -34,3 +34,9 @@
 ### git clone [https://github.com/pso247/Taller_practico_Semana_1y2_Grupo5.git](https://github.com/pso247/Taller_practico_Semana_1y2_Grupo5.git)
 
 ![Evidencias_GitHub](./Evidencias_Github/img/Imagen5.png)
+
+### git log (sirve para ver el historial de cambios (commits) de tu proyecto en Git.)
+
+![Evidencias_GitHub](./Evidencias_Github/img/Imagen6.png)
+![Evidencias_GitHub](./Evidencias_Github/img/Imagen7.png)
+![Evidencias_GitHub](./Evidencias_Github/img/Imagen8.png)
