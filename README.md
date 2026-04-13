@@ -5,7 +5,7 @@
 |1. Bruce Barrera Neyra|N00439177| [Brucebn89](https://github.com/Brucebn89)|
 |2. Rony Trigoso Chuan|N00427870|	[RonyTC](https://github.com/RonyTC)|
 |3. Arturo Hurtado Mendez|N00438882|[Artur0HM90](https://github.com/Artur0HM90)|
-|4. Carlos Garcia Bazan|N00403695| 	git: |
+|4. Carlos Garcia Bazan|N00403695| [CarlosAGarcia97](https://github.com/CarlosAGarcia97) |
 |5. Paulino Silva Oria|N00146614|[pso247](https://github.com/pso247)|
 
 
@@ -35,8 +35,19 @@
 
 ![Evidencias_GitHub](./Evidencias_Github/img/Imagen5.png)
 
-### git log (sirve para ver el historial de cambios (commits) de tu proyecto en Git.)
+
+### git log (sirve para ver el historial de cambios - commits)
 
 ![Evidencias_GitHub](./Evidencias_Github/img/Imagen6.png)
 ![Evidencias_GitHub](./Evidencias_Github/img/Imagen7.png)
 ![Evidencias_GitHub](./Evidencias_Github/img/Imagen8.png)
+
+## Subir Carpeta Integrantes:
+1.	git init
+2.	git status
+3.	git add Integrantes
+4.	git commit -m “Subir Carpeta Integrantes”
+5.	git push -u origin main
+
+![Evidencias_GitHub](./Evidencias_Github/img/Imagen9.png)
+![Evidencias_GitHub](./Evidencias_Github/img/Imagen10.png)
